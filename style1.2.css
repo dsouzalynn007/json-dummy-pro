@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#division{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to top, rgba(238, 130, 238, 0.553),rgba(193, 193, 236, 0.795),rgba(173, 227, 173, 0.712),rgba(240, 240, 50, 0.511));
+    border-radius: 50%;
+    border: 15px double rgba(23, 20, 186, 0.498);
+    background-clip: content-box;
+}

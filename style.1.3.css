@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+div img{
+width: 300px;
+height: 200px;
+border-radius: 50px;
+border-top: 10px darkviolet dotted;
+border-bottom: 10px dodgerblue double;
+border-left: 10px goldenrod groove;
+border-right: 10px saddlebrown dashed;
+}
+div h1{
+width: 300px;
+height: 200px;
+border-radius: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-top: 10px red solid;
+border-bottom: 10px blue outset;
+border-left: 10px yellow ridge;
+border-right: 10px green solid;
+}
+tr,td{
+padding: 20px;
+background-color: saddlebrown;
+border-top: 10px saddlebrown ridge;
+border-bottom: 10px saddlebrown ridge;
+border-left: 10px saddlebrown ridge;
+border-right: 10px saddlebrown ridge;
+}
+input{border: none;}
+.button1{border: none;}
+.button2{border-style: hidden;}
+#h1{font-family: 'Kdam Thmor Pro', sans-serif;}
+#p{font-family: 'Kdam Thmor Pro', sans-serif;}
+#dlynn{
+float: right;
+height: 300px;
+width: 500px;
+}
+
+#cap{text-transform: capitalize;}
+#low{text-transform: lowercase;}
+#up{text-transform: uppercase;}
+#under{text-decoration: underline cyan;}
+#over{text-decoration: overline;}
+#through{text-decoration: line-through red;}
+#justify{text-align: justify;}
+#indent{text-indent: 100px;}
+#lineheight{line-height: 40px;}
+#wordspace{word-spacing: 20px;}
+#letterspace{letter-spacing: 5px;}

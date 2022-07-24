@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class4</title>
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    
+<section>
+    <!-- same class for multiple elements -->
+    <p class="abc">hello people</p>
+    <p class="abc">hello people</p>
+    <!-- same ids for multiple elements but not good practice-->
+    <p id="xyz">hello people</p>
+    <p id="xyz">hello people</p>
+    <!-- multiple classes -->
+    <p class="abc1 abc2 abc3">hello people</p>
+    <!-- cannot use multiple ids -->
+    <p id="xyz1 xyz2 xyz3">hello people</p>
+    <!-- grouping selector -->
+    <pre>hello people</pre>
+    <h3>hello people</h3>
+    <a href="">hello people</a>
+    <!-- tag/element selector -->
+    <b>hello people</b>
+</section>
+<!-- descendant selector -->
+<div id="descendant">
+    <p>1</p>
+    <p>2</p>
+    <h6>3</h6>
+    <section>
+        <p>4</p>
+        <p>5</p>
+        <h4>6</h4>
+    </section>
+    <p>7</p>
+    <p>8</p>
+    <h6>9</h6>
+</div>
+<p>10</p>
+<!-- child selector -->
+<div id="child">
+    <p>1</p>
+    <p>2</p>
+    <h6>3</h6>
+    <section>
+        <p>4</p>
+        <p>5</p>
+        <h4>6</h4>
+    </section>
+    <p>7</p>
+    <p>8</p>
+    <h6>9</h6>
+</div>
+    <p>10</p>
+<!-- adjacent sibling selector -->
+<div id="adjacent">
+    <p>1</p>
+    <p>2</p>
+    <h6>3</h6>
+    <section>
+        <p>4</p>
+        <p>5</p>
+        <h4>6</h4>
+    </section>
+    <p>7</p>
+    <p>8</p>
+    <h6>9</h6>
+</div>
+    <p>10</p>
+<!-- general sibling selector -->
+<div id="general">
+    <p>1</p>
+    <p>2</p>
+    <h6>3</h6>
+    <section>
+        <p>4</p>
+        <p>5</p>
+        <h4>6</h4>
+    </section>
+    <p>7</p>
+    <p>8</p>
+    <h6>9</h6>
+</div>
+    <p>10</p>
+    <!-- anchor-pseudo selector -->
+<h1 id="anchor-pseudo"><a href="zz">dskbfvdsbvbdsvbdsb</a></h1>
+    <!-- hover-pseudo selector -->
+<div>
+    btn <br>
+    <u>PRESS TO ENTER</u>
+    <hr>
+    <button>SUBMIT</button>
+</div>
+    <!-- focus-pseudo selector -->
+<input type="text">
+</body>
+</html>

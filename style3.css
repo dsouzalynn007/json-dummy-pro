@@ -1,0 +1,60 @@
+section{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+section header{
+    height: 100px;
+    width:  200px;
+    background-color: cyan;
+    margin-left: 50px;
+    transition-property: width, height;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+section header:hover{
+    height: 200px;
+    width:  100px;
+    margin-left: 50px;
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(2); */
+    /* transform: rotate(180); */
+}
+section footer{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: aquamarine;
+    margin-left: 50px;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+section footer:hover{
+    height: 0px;
+    width: 0px;
+    border-radius: 0;
+    margin-left: 50px;
+}
+section nav{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: rgb(165, 127, 255);
+    margin-left: 50px;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+section nav:hover{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin-left: 50px;
+}

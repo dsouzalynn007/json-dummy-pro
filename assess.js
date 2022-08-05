@@ -61,18 +61,7 @@ section.appendChild(form)
 document.body.append(section)
 
 button.onclick = function(e) {
-    e.preventDefault()
-    let myname=inputname.value
-    let mypassword=inputpass.value
-    let myemail=inputemail.value
-    let mynumber=inputmob.value
-    let article=document.createElement('article')
-    document.body.append(article)
-    section.style.display='none'
-    article.innerHTML = `
-    <h1>myname: </h1><p>${myname}</p>
-    <h1>mypassword: </h1><p>${mypassword}</p>
-    <h1>myemail: </h1><p>${myemail}</p>
-    <h1>mynumber: </h1><p>${mynumber}</p>
-    `
+    let count=localStorage.length
+    let toLocal = { name:inputname.value, password:inputpass.value, email:inputemail.value, number:inputmob.value }
+    window.localStorage.setItem(`Data${count}`,JSON.stringify(toLocal))
 }

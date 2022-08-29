@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: #eee; */
+}
+#template{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+#template div{
+    padding: 10px;
+    box-shadow: 1px 1px 5px gray;
+}
+#template div:hover{
+    background: #eee;
+}
+#template div img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#template div h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.red{
+ color: red;
+ font-weight: bold;
+}
+.green{
+    color: green;
+    font-weight: bold;
+}

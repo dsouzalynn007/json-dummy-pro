@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assess.css">
+</head>
+
+<body>
+    <section>
+        <article id="top">
+            <h1>HOSPITAL BILL</h1>
+            <form>
+                <label for="">Patient Name</label>
+                <input type="text" placeholder="Enter the Patient Name" required/>
+                <label for="">Test Name</label>
+                <input type="text" placeholder="Enter the test name" required/>
+                <button>Submit</button>
+            </form>
+        </article>
+
+        <article id="bottom">
+            <table id="left">
+                <thead>
+                    <tr>
+                        <th>Sl. No</th>
+                        <th class="testName">Hospital Facility</th>
+                        <th>Amount (Rs)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td class="testName">General Check Up</td>
+                        <td class="amount">500</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td class="testName">ECG</td>
+                        <td class="amount">150</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td class="testName">Anti TPO test</td>
+                        <td class="amount">1020</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td class="testName">Blood Test</td>
+                        <td class="amount">500</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td class="testName">HIV Test</td>
+                        <td class="amount">700</td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td class="testName">X ray</td>
+                        <td class="amount">400</td>
+                    </tr>
+                    <tr>
+                        <td>07</td>
+                        <td class="testName">Sonography</td>
+                        <td class="amount">750</td>
+                    </tr>
+                    <tr>
+                        <td>08</td>
+                        <td class="testName">Dialysis</td>
+                        <td class="amount">1000</td>
+                    </tr>
+                    <tr>
+                        <td>09</td>
+                        <td class="testName">CT Scanning</td>
+                        <td class="amount">1500</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td class="testName">Thyroid Test</td>
+                        <td class="amount">500</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <aside>
+                <h1 id="patientName">Patient Name :</h1>
+                <table id="right">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="rightdata">
+                    </tbody>
+                </table>
+                <!-- <h1 id="totalvalue">Total Amount :</h1> -->
+
+            </aside>
+        </article>
+    </section>
+    <script src="assess.js"></script>
+</body>
+
+</html>
